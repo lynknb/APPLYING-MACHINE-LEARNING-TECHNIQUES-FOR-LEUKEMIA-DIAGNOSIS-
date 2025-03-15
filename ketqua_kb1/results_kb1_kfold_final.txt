@@ -1,0 +1,876 @@
+===== Model: NB =====
+
+--- Fold 1 ---
+Train Accuracy: 0.9474
+Test Accuracy: 0.8667
+Train AUC: 0.9716
+Test AUC: 0.9400
+Train Precision:
+  ALL: 0.9722, AML: 0.9048
+Test Precision:
+  ALL: 0.9000, AML: 0.8000
+Train Recall:
+  ALL: 0.9459, AML: 0.9500
+Test Recall:
+  ALL: 0.9000, AML: 0.8000
+Train F1-Score:
+  ALL: 0.9589, AML: 0.9268
+Test F1-Score:
+  ALL: 0.9000, AML: 0.8000
+
+Train Confusion Matrix:
+  35 2
+  1 19
+Test Confusion Matrix:
+  9 1
+  1 4
+
+--- Fold 2 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8000
+Train AUC: 1.0000
+Test AUC: 0.8241
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8000, AML: 0.8000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.8889, AML: 0.6667
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8421, AML: 0.7273
+
+Train Confusion Matrix:
+  38 0
+  0 19
+Test Confusion Matrix:
+  8 1
+  2 4
+
+--- Fold 3 ---
+Train Accuracy: 0.9828
+Test Accuracy: 0.6429
+Train AUC: 1.0000
+Test AUC: 0.6061
+Train Precision:
+  ALL: 0.9730, AML: 1.0000
+Test Precision:
+  ALL: 0.8000, AML: 0.2500
+Train Recall:
+  ALL: 1.0000, AML: 0.9545
+Test Recall:
+  ALL: 0.7273, AML: 0.3333
+Train F1-Score:
+  ALL: 0.9863, AML: 0.9767
+Test F1-Score:
+  ALL: 0.7619, AML: 0.2857
+
+Train Confusion Matrix:
+  36 0
+  1 21
+Test Confusion Matrix:
+  8 3
+  2 1
+
+--- Fold 4 ---
+Train Accuracy: 0.9828
+Test Accuracy: 0.7857
+Train AUC: 0.9724
+Test AUC: 0.7444
+Train Precision:
+  ALL: 0.9744, AML: 1.0000
+Test Precision:
+  ALL: 0.8750, AML: 0.6667
+Train Recall:
+  ALL: 1.0000, AML: 0.9500
+Test Recall:
+  ALL: 0.7778, AML: 0.8000
+Train F1-Score:
+  ALL: 0.9870, AML: 0.9744
+Test F1-Score:
+  ALL: 0.8235, AML: 0.7273
+
+Train Confusion Matrix:
+  38 0
+  1 19
+Test Confusion Matrix:
+  7 2
+  1 4
+
+--- Fold 5 ---
+Train Accuracy: 0.9828
+Test Accuracy: 0.7857
+Train AUC: 0.9960
+Test AUC: 0.8438
+Train Precision:
+  ALL: 0.9750, AML: 1.0000
+Test Precision:
+  ALL: 0.7778, AML: 0.8000
+Train Recall:
+  ALL: 1.0000, AML: 0.9474
+Test Recall:
+  ALL: 0.8750, AML: 0.6667
+Train F1-Score:
+  ALL: 0.9873, AML: 0.9730
+Test F1-Score:
+  ALL: 0.8235, AML: 0.7273
+
+Train Confusion Matrix:
+  39 0
+  1 18
+Test Confusion Matrix:
+  7 1
+  2 4
+
+=== Summary ===
+Train Accuracy mean: 0.9791, std: 0.0172
+Test Accuracy mean: 0.7762, std: 0.0731
+Train AUC mean: 0.9880
+Test AUC mean: 0.7917
+Precision (Train):
+  ALL: 0.9789, AML: 0.9810
+Precision (Test):
+  ALL: 0.8306, AML: 0.6633
+Recall (Train):
+  ALL: 0.9892, AML: 0.9604
+Recall (Test):
+  ALL: 0.8338, AML: 0.6533
+F1-Score (Train):
+  ALL: 0.9839, AML: 0.9702
+F1-Score (Test):
+  ALL: 0.8302, AML: 0.6535
+
+
+===== Model: LR =====
+
+--- Fold 1 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8000
+Train AUC: 1.0000
+Test AUC: 0.9000
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8182, AML: 0.7500
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.9000, AML: 0.6000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8571, AML: 0.6667
+
+Train Confusion Matrix:
+  37 0
+  0 20
+Test Confusion Matrix:
+  9 1
+  2 3
+
+--- Fold 2 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8000
+Train AUC: 1.0000
+Test AUC: 0.8889
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8750, AML: 0.7143
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.7778, AML: 0.8333
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8235, AML: 0.7692
+
+Train Confusion Matrix:
+  38 0
+  0 19
+Test Confusion Matrix:
+  7 2
+  1 5
+
+--- Fold 3 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8571
+Train AUC: 1.0000
+Test AUC: 0.9697
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.9091, AML: 0.6667
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.9091, AML: 0.6667
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.9091, AML: 0.6667
+
+Train Confusion Matrix:
+  36 0
+  0 22
+Test Confusion Matrix:
+  10 1
+  1 2
+
+--- Fold 4 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.6429
+Train AUC: 1.0000
+Test AUC: 0.8556
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8333, AML: 0.5000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.5556, AML: 0.8000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.6667, AML: 0.6154
+
+Train Confusion Matrix:
+  38 0
+  0 20
+Test Confusion Matrix:
+  5 4
+  1 4
+
+--- Fold 5 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8571
+Train AUC: 1.0000
+Test AUC: 0.9583
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8000, AML: 1.0000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 1.0000, AML: 0.6667
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8889, AML: 0.8000
+
+Train Confusion Matrix:
+  39 0
+  0 19
+Test Confusion Matrix:
+  8 0
+  2 4
+
+=== Summary ===
+Train Accuracy mean: 1.0000, std: 0.0000
+Test Accuracy mean: 0.7914, std: 0.0786
+Train AUC mean: 1.0000
+Test AUC mean: 0.9145
+Precision (Train):
+  ALL: 1.0000, AML: 1.0000
+Precision (Test):
+  ALL: 0.8471, AML: 0.7262
+Recall (Train):
+  ALL: 1.0000, AML: 1.0000
+Recall (Test):
+  ALL: 0.8285, AML: 0.7133
+F1-Score (Train):
+  ALL: 1.0000, AML: 1.0000
+F1-Score (Test):
+  ALL: 0.8291, AML: 0.7036
+
+
+===== Model: SVM =====
+
+--- Fold 1 ---
+Train Accuracy: 0.7193
+Test Accuracy: 0.6667
+Train AUC: 0.9757
+Test AUC: 0.9400
+Train Precision:
+  ALL: 0.6981, AML: 1.0000
+Test Precision:
+  ALL: 0.6667, AML: 0.0000
+Train Recall:
+  ALL: 1.0000, AML: 0.2000
+Test Recall:
+  ALL: 1.0000, AML: 0.0000
+Train F1-Score:
+  ALL: 0.8222, AML: 0.3333
+Test F1-Score:
+  ALL: 0.8000, AML: 0.0000
+
+Train Confusion Matrix:
+  37 0
+  16 4
+Test Confusion Matrix:
+  10 0
+  5 0
+
+--- Fold 2 ---
+Train Accuracy: 0.6842
+Test Accuracy: 0.6000
+Train AUC: 0.9820
+Test AUC: 0.8704
+Train Precision:
+  ALL: 0.6786, AML: 1.0000
+Test Precision:
+  ALL: 0.6000, AML: 0.0000
+Train Recall:
+  ALL: 1.0000, AML: 0.0526
+Test Recall:
+  ALL: 1.0000, AML: 0.0000
+Train F1-Score:
+  ALL: 0.8085, AML: 0.1000
+Test F1-Score:
+  ALL: 0.7500, AML: 0.0000
+
+Train Confusion Matrix:
+  38 0
+  18 1
+Test Confusion Matrix:
+  9 0
+  6 0
+
+--- Fold 3 ---
+Train Accuracy: 0.7586
+Test Accuracy: 0.7857
+Train AUC: 0.9722
+Test AUC: 0.7576
+Train Precision:
+  ALL: 0.7200, AML: 1.0000
+Test Precision:
+  ALL: 0.7857, AML: 0.0000
+Train Recall:
+  ALL: 1.0000, AML: 0.3636
+Test Recall:
+  ALL: 1.0000, AML: 0.0000
+Train F1-Score:
+  ALL: 0.8372, AML: 0.5333
+Test F1-Score:
+  ALL: 0.8800, AML: 0.0000
+
+Train Confusion Matrix:
+  36 0
+  14 8
+Test Confusion Matrix:
+  11 0
+  3 0
+
+--- Fold 4 ---
+Train Accuracy: 0.7414
+Test Accuracy: 0.7143
+Train AUC: 0.9645
+Test AUC: 0.7333
+Train Precision:
+  ALL: 0.7170, AML: 1.0000
+Test Precision:
+  ALL: 0.6923, AML: 1.0000
+Train Recall:
+  ALL: 1.0000, AML: 0.2500
+Test Recall:
+  ALL: 1.0000, AML: 0.2000
+Train F1-Score:
+  ALL: 0.8352, AML: 0.4000
+Test F1-Score:
+  ALL: 0.8182, AML: 0.3333
+
+Train Confusion Matrix:
+  38 0
+  15 5
+Test Confusion Matrix:
+  9 0
+  4 1
+
+--- Fold 5 ---
+Train Accuracy: 0.6724
+Test Accuracy: 0.5714
+Train AUC: 0.9879
+Test AUC: 0.8750
+Train Precision:
+  ALL: 0.6724, AML: 0.0000
+Test Precision:
+  ALL: 0.5714, AML: 0.0000
+Train Recall:
+  ALL: 1.0000, AML: 0.0000
+Test Recall:
+  ALL: 1.0000, AML: 0.0000
+Train F1-Score:
+  ALL: 0.8041, AML: 0.0000
+Test F1-Score:
+  ALL: 0.7273, AML: 0.0000
+
+Train Confusion Matrix:
+  39 0
+  19 0
+Test Confusion Matrix:
+  8 0
+  6 0
+
+=== Summary ===
+Train Accuracy mean: 0.7152, std: 0.0328
+Test Accuracy mean: 0.6676, std: 0.0774
+Train AUC mean: 0.9764
+Test AUC mean: 0.8353
+Precision (Train):
+  ALL: 0.6972, AML: 0.8000
+Precision (Test):
+  ALL: 0.6632, AML: 0.2000
+Recall (Train):
+  ALL: 1.0000, AML: 0.1733
+Recall (Test):
+  ALL: 1.0000, AML: 0.0400
+F1-Score (Train):
+  ALL: 0.8214, AML: 0.2733
+F1-Score (Test):
+  ALL: 0.7951, AML: 0.0667
+
+
+===== Model: KNN =====
+
+--- Fold 1 ---
+Train Accuracy: 0.7719
+Test Accuracy: 0.8000
+Train AUC: 0.8736
+Test AUC: 0.9100
+Train Precision:
+  ALL: 0.7857, AML: 0.7333
+Test Precision:
+  ALL: 0.7692, AML: 1.0000
+Train Recall:
+  ALL: 0.8919, AML: 0.5500
+Test Recall:
+  ALL: 1.0000, AML: 0.4000
+Train F1-Score:
+  ALL: 0.8354, AML: 0.6286
+Test F1-Score:
+  ALL: 0.8696, AML: 0.5714
+
+Train Confusion Matrix:
+  33 4
+  9 11
+Test Confusion Matrix:
+  10 0
+  3 2
+
+--- Fold 2 ---
+Train Accuracy: 0.8246
+Test Accuracy: 0.7333
+Train AUC: 0.9307
+Test AUC: 0.8611
+Train Precision:
+  ALL: 0.8333, AML: 0.8000
+Test Precision:
+  ALL: 0.7273, AML: 0.7500
+Train Recall:
+  ALL: 0.9211, AML: 0.6316
+Test Recall:
+  ALL: 0.8889, AML: 0.5000
+Train F1-Score:
+  ALL: 0.8750, AML: 0.7059
+Test F1-Score:
+  ALL: 0.8000, AML: 0.6000
+
+Train Confusion Matrix:
+  35 3
+  7 12
+Test Confusion Matrix:
+  8 1
+  3 3
+
+--- Fold 3 ---
+Train Accuracy: 0.8448
+Test Accuracy: 0.8571
+Train AUC: 0.9179
+Test AUC: 0.7576
+Train Precision:
+  ALL: 0.8649, AML: 0.8095
+Test Precision:
+  ALL: 0.8462, AML: 1.0000
+Train Recall:
+  ALL: 0.8889, AML: 0.7727
+Test Recall:
+  ALL: 1.0000, AML: 0.3333
+Train F1-Score:
+  ALL: 0.8767, AML: 0.7907
+Test F1-Score:
+  ALL: 0.9167, AML: 0.5000
+
+Train Confusion Matrix:
+  32 4
+  5 17
+Test Confusion Matrix:
+  11 0
+  2 1
+
+--- Fold 4 ---
+Train Accuracy: 0.8448
+Test Accuracy: 0.6429
+Train AUC: 0.9316
+Test AUC: 0.6111
+Train Precision:
+  ALL: 0.8537, AML: 0.8235
+Test Precision:
+  ALL: 0.7500, AML: 0.5000
+Train Recall:
+  ALL: 0.9211, AML: 0.7000
+Test Recall:
+  ALL: 0.6667, AML: 0.6000
+Train F1-Score:
+  ALL: 0.8861, AML: 0.7568
+Test F1-Score:
+  ALL: 0.7059, AML: 0.5455
+
+Train Confusion Matrix:
+  35 3
+  6 14
+Test Confusion Matrix:
+  6 3
+  2 3
+
+--- Fold 5 ---
+Train Accuracy: 0.8448
+Test Accuracy: 0.7143
+Train AUC: 0.9312
+Test AUC: 0.8333
+Train Precision:
+  ALL: 0.8409, AML: 0.8571
+Test Precision:
+  ALL: 0.7000, AML: 0.7500
+Train Recall:
+  ALL: 0.9487, AML: 0.6316
+Test Recall:
+  ALL: 0.8750, AML: 0.5000
+Train F1-Score:
+  ALL: 0.8916, AML: 0.7273
+Test F1-Score:
+  ALL: 0.7778, AML: 0.6000
+
+Train Confusion Matrix:
+  37 2
+  7 12
+Test Confusion Matrix:
+  7 1
+  3 3
+
+=== Summary ===
+Train Accuracy mean: 0.8262, std: 0.0282
+Test Accuracy mean: 0.7495, std: 0.0735
+Train AUC mean: 0.9170
+Test AUC mean: 0.7946
+Precision (Train):
+  ALL: 0.8357, AML: 0.8047
+Precision (Test):
+  ALL: 0.7585, AML: 0.8000
+Recall (Train):
+  ALL: 0.9143, AML: 0.6572
+Recall (Test):
+  ALL: 0.8861, AML: 0.4667
+F1-Score (Train):
+  ALL: 0.8730, AML: 0.7218
+F1-Score (Test):
+  ALL: 0.8140, AML: 0.5634
+
+
+===== Model: DT =====
+
+--- Fold 1 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.6000
+Train AUC: 1.0000
+Test AUC: 0.5500
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.7000, AML: 0.4000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.7000, AML: 0.4000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.7000, AML: 0.4000
+
+Train Confusion Matrix:
+  37 0
+  0 20
+Test Confusion Matrix:
+  7 3
+  3 2
+
+--- Fold 2 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.5333
+Train AUC: 1.0000
+Test AUC: 0.5000
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.6000, AML: 0.4000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.6667, AML: 0.3333
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.6316, AML: 0.3636
+
+Train Confusion Matrix:
+  38 0
+  0 19
+Test Confusion Matrix:
+  6 3
+  4 2
+
+--- Fold 3 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.5714
+Train AUC: 1.0000
+Test AUC: 0.3636
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.7273, AML: 0.0000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.7273, AML: 0.0000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.7273, AML: 0.0000
+
+Train Confusion Matrix:
+  36 0
+  0 22
+Test Confusion Matrix:
+  8 3
+  3 0
+
+--- Fold 4 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.7143
+Train AUC: 1.0000
+Test AUC: 0.6889
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.7778, AML: 0.6000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.7778, AML: 0.6000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.7778, AML: 0.6000
+
+Train Confusion Matrix:
+  38 0
+  0 20
+Test Confusion Matrix:
+  7 2
+  2 3
+
+--- Fold 5 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.7143
+Train AUC: 1.0000
+Test AUC: 0.7083
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.7500, AML: 0.6667
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.7500, AML: 0.6667
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.7500, AML: 0.6667
+
+Train Confusion Matrix:
+  39 0
+  0 19
+Test Confusion Matrix:
+  6 2
+  2 4
+
+=== Summary ===
+Train Accuracy mean: 1.0000, std: 0.0000
+Test Accuracy mean: 0.6267, std: 0.0746
+Train AUC mean: 1.0000
+Test AUC mean: 0.5622
+Precision (Train):
+  ALL: 1.0000, AML: 1.0000
+Precision (Test):
+  ALL: 0.7110, AML: 0.4133
+Recall (Train):
+  ALL: 1.0000, AML: 1.0000
+Recall (Test):
+  ALL: 0.7243, AML: 0.4000
+F1-Score (Train):
+  ALL: 1.0000, AML: 1.0000
+F1-Score (Test):
+  ALL: 0.7173, AML: 0.4061
+
+
+===== Model: RF =====
+
+--- Fold 1 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8000
+Train AUC: 1.0000
+Test AUC: 0.9000
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.7692, AML: 1.0000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 1.0000, AML: 0.4000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8696, AML: 0.5714
+
+Train Confusion Matrix:
+  37 0
+  0 20
+Test Confusion Matrix:
+  10 0
+  3 2
+
+--- Fold 2 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.6667
+Train AUC: 1.0000
+Test AUC: 0.8426
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.6667, AML: 0.6667
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.8889, AML: 0.3333
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.7619, AML: 0.4444
+
+Train Confusion Matrix:
+  38 0
+  0 19
+Test Confusion Matrix:
+  8 1
+  4 2
+
+--- Fold 3 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.8571
+Train AUC: 1.0000
+Test AUC: 0.7424
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8462, AML: 1.0000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 1.0000, AML: 0.3333
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.9167, AML: 0.5000
+
+Train Confusion Matrix:
+  36 0
+  0 22
+Test Confusion Matrix:
+  11 0
+  2 1
+
+--- Fold 4 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.7857
+Train AUC: 1.0000
+Test AUC: 0.8667
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.8000, AML: 0.7500
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 0.8889, AML: 0.6000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8421, AML: 0.6667
+
+Train Confusion Matrix:
+  38 0
+  0 20
+Test Confusion Matrix:
+  8 1
+  2 3
+
+--- Fold 5 ---
+Train Accuracy: 1.0000
+Test Accuracy: 0.7857
+Train AUC: 1.0000
+Test AUC: 0.8333
+Train Precision:
+  ALL: 1.0000, AML: 1.0000
+Test Precision:
+  ALL: 0.7273, AML: 1.0000
+Train Recall:
+  ALL: 1.0000, AML: 1.0000
+Test Recall:
+  ALL: 1.0000, AML: 0.5000
+Train F1-Score:
+  ALL: 1.0000, AML: 1.0000
+Test F1-Score:
+  ALL: 0.8421, AML: 0.6667
+
+Train Confusion Matrix:
+  39 0
+  0 19
+Test Confusion Matrix:
+  8 0
+  3 3
+
+=== Summary ===
+Train Accuracy mean: 1.0000, std: 0.0000
+Test Accuracy mean: 0.7790, std: 0.0621
+Train AUC mean: 1.0000
+Test AUC mean: 0.8370
+Precision (Train):
+  ALL: 1.0000, AML: 1.0000
+Precision (Test):
+  ALL: 0.7619, AML: 0.8833
+Recall (Train):
+  ALL: 1.0000, AML: 1.0000
+Recall (Test):
+  ALL: 0.9556, AML: 0.4333
+F1-Score (Train):
+  ALL: 1.0000, AML: 1.0000
+F1-Score (Test):
+  ALL: 0.8465, AML: 0.5698
+
+
