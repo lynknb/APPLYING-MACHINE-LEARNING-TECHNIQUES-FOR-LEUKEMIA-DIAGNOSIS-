@@ -1,0 +1,239 @@
+
+=== Running with top 3 gen ===
+Fold 1
+Top 3 gen significant: ['U05259_rna1_at', 'M84371_rna1_s_at', 'M31523_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[37  0]
+ [ 0 20]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        37
+           1       1.00      1.00      1.00        20
+
+    accuracy                           1.00        57
+   macro avg       1.00      1.00      1.00        57
+weighted avg       1.00      1.00      1.00        57
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 1 Test Accuracy: 0.8667
+Random Forest Fold 1 Test Precision: 0.8000
+Random Forest Fold 1 Test Recall: 0.8000
+Random Forest Fold 1 Test F1-Score: 0.8000
+Random Forest Fold 1 Test AUC: 0.9300
+
+Fold 2
+Top 3 gen significant: ['X59417_at', 'M92287_at', 'M31211_s_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[38  0]
+ [ 0 19]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        38
+           1       1.00      1.00      1.00        19
+
+    accuracy                           1.00        57
+   macro avg       1.00      1.00      1.00        57
+weighted avg       1.00      1.00      1.00        57
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 2 Test Accuracy: 0.9333
+Random Forest Fold 2 Test Precision: 0.8571
+Random Forest Fold 2 Test Recall: 1.0000
+Random Forest Fold 2 Test F1-Score: 0.9231
+Random Forest Fold 2 Test AUC: 0.9815
+
+Fold 3
+Top 3 gen significant: ['M31211_s_at', 'M31523_at', 'J05243_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[36  0]
+ [ 0 22]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        36
+           1       1.00      1.00      1.00        22
+
+    accuracy                           1.00        58
+   macro avg       1.00      1.00      1.00        58
+weighted avg       1.00      1.00      1.00        58
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 3 Test Accuracy: 1.0000
+Random Forest Fold 3 Test Precision: 1.0000
+Random Forest Fold 3 Test Recall: 1.0000
+Random Forest Fold 3 Test F1-Score: 1.0000
+Random Forest Fold 3 Test AUC: 1.0000
+
+Fold 4
+Top 3 gen significant: ['M31211_s_at', 'X59417_at', 'M92287_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[38  0]
+ [ 0 20]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        38
+           1       1.00      1.00      1.00        20
+
+    accuracy                           1.00        58
+   macro avg       1.00      1.00      1.00        58
+weighted avg       1.00      1.00      1.00        58
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 4 Test Accuracy: 0.7857
+Random Forest Fold 4 Test Precision: 0.7500
+Random Forest Fold 4 Test Recall: 0.6000
+Random Forest Fold 4 Test F1-Score: 0.6667
+Random Forest Fold 4 Test AUC: 0.8889
+
+Fold 5
+Top 3 gen significant: ['M31523_at', 'M92287_at', 'X59417_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[39  0]
+ [ 0 19]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        39
+           1       1.00      1.00      1.00        19
+
+    accuracy                           1.00        58
+   macro avg       1.00      1.00      1.00        58
+weighted avg       1.00      1.00      1.00        58
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 5 Test Accuracy: 0.9286
+Random Forest Fold 5 Test Precision: 0.8571
+Random Forest Fold 5 Test Recall: 1.0000
+Random Forest Fold 5 Test F1-Score: 0.9231
+Random Forest Fold 5 Test AUC: 1.0000
+
+=== Standard Deviation for Top 3 Gen ===
+Accuracy Std: 0.0722
+Precision Std: 0.0837
+Recall Std: 0.1600
+F1-Score Std: 0.1170
+AUC Std: 0.0439
+
+=== Running with top 5 gen ===
+Fold 1
+Top 5 gen significant: ['U05259_rna1_at', 'M84371_rna1_s_at', 'M31523_at', 'M92287_at', 'S50223_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[37  0]
+ [ 0 20]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        37
+           1       1.00      1.00      1.00        20
+
+    accuracy                           1.00        57
+   macro avg       1.00      1.00      1.00        57
+weighted avg       1.00      1.00      1.00        57
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 1 Test Accuracy: 0.9333
+Random Forest Fold 1 Test Precision: 1.0000
+Random Forest Fold 1 Test Recall: 0.8000
+Random Forest Fold 1 Test F1-Score: 0.8889
+Random Forest Fold 1 Test AUC: 0.9800
+
+Fold 2
+Top 5 gen significant: ['X59417_at', 'M92287_at', 'M31211_s_at', 'U05259_rna1_at', 'M31523_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[38  0]
+ [ 0 19]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        38
+           1       1.00      1.00      1.00        19
+
+    accuracy                           1.00        57
+   macro avg       1.00      1.00      1.00        57
+weighted avg       1.00      1.00      1.00        57
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 2 Test Accuracy: 0.9333
+Random Forest Fold 2 Test Precision: 0.8571
+Random Forest Fold 2 Test Recall: 1.0000
+Random Forest Fold 2 Test F1-Score: 0.9231
+Random Forest Fold 2 Test AUC: 1.0000
+
+Fold 3
+Top 5 gen significant: ['M31211_s_at', 'M31523_at', 'J05243_at', 'M11722_at', 'U05259_rna1_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[36  0]
+ [ 0 22]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        36
+           1       1.00      1.00      1.00        22
+
+    accuracy                           1.00        58
+   macro avg       1.00      1.00      1.00        58
+weighted avg       1.00      1.00      1.00        58
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 3 Test Accuracy: 0.9286
+Random Forest Fold 3 Test Precision: 0.7500
+Random Forest Fold 3 Test Recall: 1.0000
+Random Forest Fold 3 Test F1-Score: 0.8571
+Random Forest Fold 3 Test AUC: 1.0000
+
+Fold 4
+Top 5 gen significant: ['M31211_s_at', 'X59417_at', 'M92287_at', 'X14850_at', 'S50223_at']
+Random Forest Train Accuracy: 1.0000
+Random Forest Train AUC: 1.0000
+Random Forest Train Confusion Matrix:
+[[38  0]
+ [ 0 20]]
+Random Forest Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        38
+           1       1.00      1.00      1.00        20
+
+    accuracy                           1.00        58
+   macro avg       1.00      1.00      1.00        58
+weighted avg       1.00      1.00      1.00        58
+
+Random Forest Train Precision: 1.0000
+Random Forest Train Recall: 1.0000
+Random Forest Train F1-Score: 1.0000
+Random Forest Fold 4 Test Accuracy: 0.8571
